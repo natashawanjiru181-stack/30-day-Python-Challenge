@@ -4,7 +4,7 @@
 - The challenge is divided into days covering key topics in Python
 
 ## Day 1 
-- Arithmetic operations- addition, multiplication, subtraction, division, exponential(power), floor division(answer rounded down to the nearest whole number), modulus(Remainder after division).
+- Arithmetic operators- addition, multiplication, subtraction, division, exponential(power), floor division(answer rounded down to the nearest whole number), modulus(Remainder after division).
 - Data Structures in Python (6):
    - Dictionary-key value pairs, curly brackets
    - Set-unordered, no duplicates, curly brackets
@@ -34,13 +34,17 @@
        - Calculations using different data types.
        - Using input() to perform calculations.
        - Use of f string, used when joining 2 different data types.
-       - Finding area, circumference and perimetre of different shapes.
+       - Finding area, circumference(circle) and perimetre of different shapes.
        - Slope of an equation=gradient, x intercept, y intercept, Points of a line.
        - Euclidean distance between two points sqrt((x2-x1)+(y2-y1))
        - Using if and else statements to compare different data types.
        - And, In operator
-       - Checking if a number is even.
-       - Printing a table of powers of numbers
+       - Checking if a number is even=divisible by 2.
+       - Printing a table of powers of numbers.
+  - Types of operators:
+       - Arithmetic operators.
+       - Comparison operators.
+       - Logical operators
 
 
 
