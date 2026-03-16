@@ -48,27 +48,43 @@
 
 ## Day 4
 - Strings:
- - Multiple line strings:'''  '''(triple single) or  """  """(triple double)
- - Output; each sentence after the fullstop appears in a new line, all aligned
- - Concatenation=merging 2 or more string variables using + operator.
- - Escape sequences in Strings-An escape sequence is a special code in a string that starts with a backslash (\) and is used to represent characters that cannot be typed normally.
- - Types of Escape sequences in Strings:
-   - \n new line-each sentence after the fullstop appears in a new line but there is a slight indent on your left.
-   - \t tab space or use commas-for equal spacings words before the /t have to be of equal length.
-   - \\ Back slash-used to write special characters inside strings
-   - \'' Single quote-used when writing short forms, acts as an apostrophe.
-   - \"" Double quote-'text' and "text" are the same in Python; You only escape the type of quote you're using; Use the opposite quote to avoid backslashes.
-- Old style formatting:
-  - %s-string only
-  - %s and %d-string and integer
-  - %.2f-floating point numbers
+  - Multiple line strings:'''  '''(triple single) or  """  """(triple double)
+  - Output; each sentence after the fullstop appears in a new line, all aligned
+  - Concatenation=merging 2 or more string variables using + operator.
+  - Escape sequences in Strings-An escape sequence is a special code in a string that starts with a backslash (\) and is used to represent characters that cannot be typed normally.
+    - Types of Escape sequences in Strings:
+     - \n new line-each sentence after the fullstop appears in a new line but there is a slight indent on your left.
+     - \t tab space or use commas-for equal spacings words before the /t have to be of equal length.
+     - \\ Back slash-used to write special characters inside strings
+     - \'' Single quote-used when writing short forms, acts as an apostrophe.
+     - \"" Double quote-'text' and "text" are the same in Python; You only escape the type of quote you're using; Use the opposite quote to avoid backslashes.
+  - Old style formatting:
+   - %s-string
+   - %i and %d-integer
+   - %.2f-floating point numbers
 - New style formatting; The word format has to be there
- - a=45
- - b=67
- - print('{} + {} = {}'.format (a,b, a+b))
- - print('{} - {} = {}'.format(a, b, a - b))
- - print('{} * {} = {}'.format(a, b, a * b))
-- f strings(formatted string literals)/ string interpolation
+  - a=45
+  - b=67
+  - print('{} + {} = {}'.format (a,b, a+b))
+  - print('{} - {} = {}'.format(a, b, a - b))
+  - print('{} * {} = {}'.format(a, b, a * b))
+- f strings(formatted string literals)/ string interpolation.
+ - Uses of f strings:
+  - Insert variables into strings.
+  - Calculate expressions inside {}.
+  - Mention variables and values with =
+  - Format numbers (decimals, commas, percent)
+  - Text alignment(left, center, right) and padding.
+  - Format dates.
+  - Access dictionary values or object attributes.
+  - If else conditional statement inside f-strings.
+  - Multiline f-string (using parentheses) and \n
+- Unpacking characters.
+- More functions:
+  - capitalize() method, converts the 1st letter of the string to a capital letter.
+  - count(), counts number of characters in the value.
+  - endswith(), used to check what the string ends with.
+  - expandtabs(), converts tabs into spaces, allowing you to control how wide each tab should be.
 
 
 
